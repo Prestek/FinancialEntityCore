@@ -1,0 +1,5 @@
+jdk:
+  - openjdk21
+
+install:
+  - mvn -DskipTests -Dgpg.skip=true -B -V clean install
